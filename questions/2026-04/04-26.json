@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "question": "Kırmızı ışıkta araç sürücüsü ne yapmalıdır?",
+    "options": [
+      "Yavaşlayarak geçer",
+      "Durur ve yeşil ışığı bekler",
+      "Korna çalarak geçer",
+      "Hızlanarak geçer"
+    ],
+    "answer": 1,
+    "explanation": "Kırmızı ışık, sürücülerin durmasını ve yeşil ışık yanana kadar beklemesini zorunlu kılar.",
+    "image": null
+  },
+  {
+    "id": 2,
+    "question": "Aşağıdaki işaret levhası neyi göstermektedir?",
+    "options": [
+      "Yol ver",
+      "Dur",
+      "Girilmez",
+      "Tehlike"
+    ],
+    "answer": 0,
+    "explanation": "Üçgen şeklindeki bu işaret, sürücülerin diğer araçlara yol vermesi gerektiğini bildirir.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Zeichen_205.svg/240px-Zeichen_205.svg.png"
+  },
+  {
+    "id": 3,
+    "question": "Şehir içinde azami hız sınırı kaç km/saattir?",
+    "options": [
+      "90 km/sa",
+      "110 km/sa",
+      "50 km/sa",
+      "70 km/sa"
+    ],
+    "answer": 2,
+    "explanation": "Türkiye'de şehir içi yollarda azami hız sınırı 50 km/saattir.",
+    "image": null
+  }
+]
