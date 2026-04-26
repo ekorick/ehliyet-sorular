@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "soru": "Aşağıdakilerden hangisi trafik işaretlerinin renk anlamlarından biri değildir?",
+    "soru": "Aşağıdakilerden hangisi Ttrafik işaretlerinin renk anlamlarından biri değildir?",
     "resim": null,
     "secenekler": ["Kırmızı: yasak", "Mavi: zorunluluk", "Sarı: uyarı", "Yeşil: bilgi"],
     "dogru": 3,
