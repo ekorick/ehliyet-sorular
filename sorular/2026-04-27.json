@@ -1,0 +1,44 @@
+{
+  "tarih": "2026-04-26",
+  "baslik": "26 Nisan 2026 Sınav Soruları",
+  "sorular": [
+    {
+      "id": 1,
+      "soru": "asdasdsadsa hangisi trafik işaretlerinde kırmızı rengin anlamını doğru ifade eder?",
+      "resim": "Dur işareti",
+      "secenekler": [
+        "A) Uyarı ve dikkat",
+        "B) Yasak ve zorunluluk",
+        "C) Bilgasdasdi sikkooo yön",
+        "D) Güvenli bölge"
+      ],
+      "dogru": 1,
+      "aciklama": "Trafik işaretlerinde kırmızı renk yasak ve zorunlulukları ifade eder. Dur levhası ve yasaklama işaretleri kırmızı zeminde kullanılır."
+    },
+    {
+      "id": 2,
+      "soru": "Şehir içi yollarda azami hız sınırı kaç km/s'dir?",
+      "secenekler": [
+        "A) 60 km/s",
+        "B) 70 km/s",
+        "C) 50 km/s",
+        "D) 80 km/s"
+      ],
+      "dogru": 0,
+      "aciklama": "Türkiye'de şehir içi yollarda azami hız sınırı 60 km/s'dir. Bu kurala uymamak ceza gerektirir."
+    },
+    {
+      "id": 3,
+      "soru": "Yaya geçidine yaklaşan araç ne yapmalıdır?",
+      "resim": "Yaya geçidi",
+      "secenekler": [
+        "A) Hızını artırmalı",
+        "B) Klakson çalmalı",
+        "C) Yavaşlamalı, yaya varsa durmalı",
+        "D) Devam etmeli"
+      ],
+      "dogru": 2,
+      "aciklama": "Yaya geçidine yaklaşan sürücü hız kesmelidir. Yaya geçmek üzereyse veya geçiyorsa araç kesinlikle durmalı, yayaya öncelik tanınmalıdır."
+    }
+  ]
+}
