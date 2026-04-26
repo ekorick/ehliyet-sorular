@@ -1,1 +1,402 @@
-
+[
+  {
+    "id": 1,
+    "soru": "Aşağıdakilerden hangisi trafik işaretlerinin renk anlamlarından biri değildir?",
+    "resim": null,
+    "secenekler": ["Kırmızı: yasak", "Mavi: zorunluluk", "Sarı: uyarı", "Yeşil: bilgi"],
+    "dogru": 3,
+    "aciklama": "Trafik işaretlerinde yeşil renk bilgi amaçlı kullanılmaz; yeşil daha çok yol güzergâhı ve yön bilgisi için kullanılır. Bilgi levhaları genellikle mavi veya yeşil zemin üzerine beyaz yazılıdır ancak temel renk kategorisinde 'yeşil: bilgi' doğru bir tanım değildir."
+  },
+  {
+    "id": 2,
+    "soru": "Şehir içinde azami hız kaç km/s'dir?",
+    "resim": null,
+    "secenekler": ["60 km/s", "50 km/s", "70 km/s", "80 km/s"],
+    "dogru": 1,
+    "aciklama": "Şehir içi yollarda aksi belirtilmedikçe azami hız 50 km/s'dir. Bu kural tüm motorlu araçlar için geçerlidir ve yerleşim yeri sınırları içinde uygulanır."
+  },
+  {
+    "id": 3,
+    "soru": "Otoyollarda kamyonlar için azami hız kaç km/s'dir?",
+    "resim": null,
+    "secenekler": ["90 km/s", "80 km/s", "100 km/s", "120 km/s"],
+    "dogru": 0,
+    "aciklama": "Otoyollarda kamyonlar ve ağır taşıtlar için azami hız 90 km/s olarak belirlenmiştir. Otomobiller için bu sınır 120 km/s'dir."
+  },
+  {
+    "id": 4,
+    "soru": "Aşağıdaki durumlarda hangisinde araç lastiğinin değiştirilmesi gerekir?",
+    "resim": null,
+    "secenekler": ["Lastik basıncı düşükse", "Diş derinliği 1.6 mm'nin altına düşmüşse", "Lastik ısınmışsa", "Hava sıcaklığı değişmişse"],
+    "dogru": 1,
+    "aciklama": "Lastik diş derinliği 1.6 mm'nin altına düştüğünde lastik yasal sınırın altında kabul edilir ve mutlaka değiştirilmesi gerekir. Bu değerin altındaki lastikler ıslak zeminde tutunmayı ciddi şekilde kaybeder."
+  },
+  {
+    "id": 5,
+    "soru": "Emniyet kemeri takmamak kaç puan cezaya yol açar?",
+    "resim": null,
+    "secenekler": ["3 puan", "5 puan", "10 puan", "15 puan"],
+    "dogru": 1,
+    "aciklama": "Emniyet kemeri takmamak 5 ceza puanı ve idari para cezasına yol açar. Araç sürücüsü ve yanındaki yolcuların tamamı emniyet kemeri takmak zorundadır."
+  },
+  {
+    "id": 6,
+    "soru": "Sürücünün alkollü olduğu tespit edildiğinde (0.50 promil üzeri) ne yapılır?",
+    "resim": null,
+    "secenekler": ["Sadece para cezası verilir", "Ehliyete el konulur ve para cezası verilir", "Araç bağlanır", "Uyarı yapılır"],
+    "dogru": 1,
+    "aciklama": "0.50 promil ve üzeri alkol tespitinde sürücünün ehliyetine el konulur, idari para cezası uygulanır ve sürücü araç kullanamaz hale getirilir. Ceza miktarı promil seviyesine göre artabilir."
+  },
+  {
+    "id": 7,
+    "soru": "Aşağıdaki işaretlerden hangisi 'dur' anlamına gelir?",
+    "resim": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/MUTCD_R1-1.svg/200px-MUTCD_R1-1.svg.png",
+    "secenekler": ["Kırmızı sekizgen levha", "Sarı üçgen levha", "Mavi daire levha", "Beyaz dikdörtgen levha"],
+    "dogru": 0,
+    "aciklama": "DUR işareti kırmızı zemin üzerine beyaz 'DUR' yazılı sekizgen (8 köşeli) bir levhadır. Bu işarette sürücü kesinlikle durmak ve yolu kontrol etmek zorundadır."
+  },
+  {
+    "id": 8,
+    "soru": "Kavşaklarda öncelik hakkı kime aittir?",
+    "resim": null,
+    "secenekler": ["Soldan gelene", "Sağdan gelene", "Büyük araçlara", "İlk gelene"],
+    "dogru": 1,
+    "aciklama": "Trafik işareti veya ışığı olmayan kavşaklarda sağdan gelen araca öncelik verilmesi gerekir. Bu kural 'sağa öncelik' kuralı olarak bilinir."
+  },
+  {
+    "id": 9,
+    "soru": "Araç içinde yangın çıktığında ilk yapılması gereken nedir?",
+    "resim": null,
+    "secenekler": ["Motoru çalıştırmaya devam etmek", "Aracı güvenli bir yere çekip durdurmak", "Camları kapatmak", "Klima açmak"],
+    "dogru": 1,
+    "aciklama": "Araçta yangın çıkması durumunda öncelikle araç yola güvenli şekilde çekilip durdurulmalı, motor kapatılmalı ve herkes araçtan uzaklaşmalıdır. Ardından yangın söndürücü kullanılabilir veya itfaiye çağrılabilir."
+  },
+  {
+    "id": 10,
+    "soru": "Gece karanlıkta şehir dışında uzun far kullanılırken karşıdan araç gelince ne yapılmalıdır?",
+    "resim": null,
+    "secenekler": ["Farlara dokunulmamalı", "Kısa fara geçilmeli", "Far kapatılmalı", "Hız artırılmalı"],
+    "dogru": 1,
+    "aciklama": "Karşıdan araç geldiğinde uzun fardan kısa fara geçmek zorunludur. Bu sayede karşıdan gelen sürücünün gözleri kamaşmaz ve kaza riski azalır."
+  },
+  {
+    "id": 11,
+    "soru": "Trafik kazasında yaralı varsa önce ne yapılmalıdır?",
+    "resim": null,
+    "secenekler": ["Aracı hareket ettirmek", "112'yi aramak ve ilk yardım uygulamak", "Kaza yerini terk etmek", "Fotoğraf çekmek"],
+    "dogru": 1,
+    "aciklama": "Yaralanmalı trafik kazasında ilk yapılması gereken 112 Acil Yardım'ı aramak ve gerekirse ilk yardım uygulamaktır. Kaza yerini terk etmek suç teşkil eder."
+  },
+  {
+    "id": 12,
+    "soru": "Taşıt yolunda hayvanları güden kişi trafik kurallarına uymak zorunda mıdır?",
+    "resim": null,
+    "secenekler": ["Hayır, istisna tutulmuşlardır", "Evet, trafik kurallarına uymak zorundadır", "Sadece gece uymaları gerekir", "Sadece otoyollarda uymaları gerekir"],
+    "dogru": 1,
+    "aciklama": "Taşıt yolunda hayvan güden kişiler de trafik kurallarına uymak zorundadır. Bu kişiler trafiği aksatmamak ve gerekli önlemleri almak durumundadır."
+  },
+  {
+    "id": 13,
+    "soru": "Aşağıdakilerden hangisi zorunlu trafik sigortası kapsamına girmez?",
+    "resim": null,
+    "secenekler": ["3. şahıs bedensel zararları", "3. şahıs maddi zararları", "Sürücünün kendi zararları", "Yolcu zararları"],
+    "dogru": 2,
+    "aciklama": "Zorunlu trafik sigortası (trafik sigortası) üçüncü şahıslara verilen zararları karşılar. Sürücünün kendi bedensel zararları bu kapsamda değildir; bunun için kasko veya ferdi kaza sigortası gerekir."
+  },
+  {
+    "id": 14,
+    "soru": "Sollama yasağı olan yerlerde ne yapılmalıdır?",
+    "resim": null,
+    "secenekler": ["Hızlı geçilebilir", "Sollamak kesinlikle yasaktır", "Gündüz sollanabilir", "Kısa mesafede sollanabilir"],
+    "dogru": 1,
+    "aciklama": "Sollama yasağı olan yerlerde hiçbir koşulda sollama yapılamaz. Bu işaret ve çizgiler tehlikeli bölgeleri belirler; geçici bile olsa kurala uymak zorunludur."
+  },
+  {
+    "id": 15,
+    "soru": "Park halindeyken yanıp sönen sarı sinyal lambası ne anlama gelir?",
+    "resim": null,
+    "secenekler": ["Park izni var", "Araç arızalı veya dikkat çekilmek isteniyor", "Döneceğini belirtiyor", "İleride tehlike var"],
+    "dogru": 1,
+    "aciklama": "Yanıp sönen sarı sinyal lambası (dörtlü flaşör) aracın arızalı olduğunu, kaza geçirdiğini veya dikkat edilmesi gereken bir durumun söz konusu olduğunu bildirir."
+  },
+  {
+    "id": 16,
+    "soru": "İki yönlü trafikte taşıtlar hangi şeritten gider?",
+    "resim": null,
+    "secenekler": ["Sağ şerit", "Sol şerit", "Orta şerit", "İstedikleri şerit"],
+    "dogru": 0,
+    "aciklama": "İki yönlü trafikte sürücüler yolun sağ tarafından gitmek zorundadır. Türkiye'de sağ el trafiği uygulanmaktadır."
+  },
+  {
+    "id": 17,
+    "soru": "Çocuklar için özel uyarı levhası olan bir okul bölgesinde hız sınırı nedir?",
+    "resim": null,
+    "secenekler": ["30 km/s", "50 km/s", "20 km/s", "40 km/s"],
+    "dogru": 0,
+    "aciklama": "Okul bölgelerinde ve çocukların bulunduğu alanlarda hız sınırı genellikle 30 km/s olarak uygulanmaktadır. Bu sınır levhalar ile belirtilir."
+  },
+  {
+    "id": 18,
+    "soru": "Aşağıdakilerden hangisi trafik lambalarının anlamlarından biridir?",
+    "resim": null,
+    "secenekler": ["Kırmızı: git", "Sarı: dur, geçme hazırlığı yap", "Yeşil: dur", "Sarı: geç"],
+    "dogru": 1,
+    "aciklama": "Sarı ışık, kırmızıya geçiş hazırlığı anlamına gelir. Sürücülerin yavaşlayıp durmaya hazırlanması gerekmektedir. Yeşil: geç, Kırmızı: dur anlamına gelir."
+  },
+  {
+    "id": 19,
+    "soru": "Taşıt muayenesini yaptırmayan araç sürücüsüne ne olur?",
+    "resim": null,
+    "secenekler": ["Sadece uyarı verilir", "Trafikten men edilir ve para cezası uygulanır", "Araç yakıt ikmali yapamaz", "Ehliyet iptal edilir"],
+    "dogru": 1,
+    "aciklama": "Muayenesi olmayan araçlar trafikten men edilir ve sürücüye idari para cezası uygulanır. Muayene zorunluluğu araç güvenliği için önemlidir."
+  },
+  {
+    "id": 20,
+    "soru": "Motosiklet sürücüsü kask takmak zorunda mıdır?",
+    "resim": null,
+    "secenekler": ["Hayır, isteğe bağlıdır", "Evet, zorunludur", "Sadece şehir dışında zorunludur", "Sadece gece zorunludur"],
+    "dogru": 1,
+    "aciklama": "Motosiklet sürücüleri ve yolcuları her koşulda kask takmak zorundadır. Kask takmamak hem tehlikelidir hem de trafik cezasına yol açar."
+  },
+  {
+    "id": 21,
+    "soru": "Yoğun sis olan bir yolda ne yapılmalıdır?",
+    "resim": null,
+    "secenekler": ["Uzun far açılmalı", "Kısa far ve sis farları açılmalı, hız düşürülmeli", "Hız artırılmalı", "Far kapatılmalı"],
+    "dogru": 1,
+    "aciklama": "Yoğun sis durumunda uzun far açmak görüş mesafesini daha da kısaltır çünkü ışık sise çarpar. Kısa far ve sis farları ile birlikte hız düşürülmeli ve güvenli takip mesafesi artırılmalıdır."
+  },
+  {
+    "id": 22,
+    "soru": "Geçiş üstünlüğü olan araçlar hangileridir?",
+    "resim": null,
+    "secenekler": ["Yalnızca ambulans", "Ambulans, itfaiye ve polis araçları", "Yalnızca polis araçları", "Tüm resmi araçlar"],
+    "dogru": 1,
+    "aciklama": "Geçiş üstünlüğüne sahip araçlar ambulans, itfaiye ve polis araçlarıdır. Bu araçlar siren ve tepe lambası ile uyarı yaparken diğer araçlar yolu açmak zorundadır."
+  },
+  {
+    "id": 23,
+    "soru": "Araçlarda hangi belge bulundurulması zorunlu değildir?",
+    "resim": null,
+    "secenekler": ["Ruhsat", "Trafik sigortası", "Kasko poliçesi", "Ehliyet"],
+    "dogru": 2,
+    "aciklama": "Zorunlu belgeler; ehliyet, araç ruhsatı ve geçerli trafik sigortasıdır. Kasko ise isteğe bağlı bir sigorta türüdür ve taşınması zorunlu değildir."
+  },
+  {
+    "id": 24,
+    "soru": "Sürücü yorgunluk hissedince ne yapmalıdır?",
+    "resim": null,
+    "secenekler": ["Hızlanarak çabuk varmalı", "Güvenli bir yerde durarak dinlenmeli", "Müzik açarak devam etmeli", "Sigara içerek devam etmeli"],
+    "dogru": 1,
+    "aciklama": "Yorgunluk trafik kazalarının önemli nedenlerinden biridir. Sürücü yorgunluk hissedince güvenli bir alan veya tesis bulup dinlenmeli, gerekirse uyumalıdır."
+  },
+  {
+    "id": 25,
+    "soru": "Aşağıdaki yol işaretlerinden hangisi 'yol ver' anlamına gelir?",
+    "resim": null,
+    "secenekler": ["Kırmızı sekizgen", "Sarı/kırmızı ters üçgen", "Mavi daire", "Beyaz dikdörtgen"],
+    "dogru": 1,
+    "aciklama": "'Yol Ver' levhası kırmızı kenarlıklı beyaz veya sarı zemin üzerine ters üçgen biçimindedir. Bu işarette sürücü hız kesmeli ve öncelikli araçlara yol vermelidir."
+  },
+  {
+    "id": 26,
+    "soru": "Devamlı beyaz orta çizgi ne anlama gelir?",
+    "resim": null,
+    "secenekler": ["Sollama serbesttir", "Sollama yasaktır", "Park serbesttir", "Hız sınırı yoktur"],
+    "dogru": 1,
+    "aciklama": "Devamlı (kesintisiz) beyaz veya sarı orta çizgi geçiş yasağını gösterir. Bu çizgiyi geçmek, yani karşı şeride geçmek kesinlikle yasaktır."
+  },
+  {
+    "id": 27,
+    "soru": "Kırmızı ışıkta duran araçta cep telefonu kullanmak yasak mıdır?",
+    "resim": null,
+    "secenekler": ["Hayır, durunca serbesttir", "Evet, araç hareket etmese de yasaktır", "Sadece el freni çekilmişse serbesttir", "Kulaklıkla kullanılabilir"],
+    "dogru": 1,
+    "aciklama": "Sürücü koltuğunda araç çalışır haldeyken elde telefon kullanmak, kırmızı ışıkta durulsa bile yasaktır. Ceza puan ve para cezasına yol açar."
+  },
+  {
+    "id": 28,
+    "soru": "Tünellerde araç kullanırken ne yapılmalıdır?",
+    "resim": null,
+    "secenekler": ["Far kapatılmalı", "Kısa far açılmalı", "Uzun far açılmalı", "Herhangi bir önlem gerekmez"],
+    "dogru": 1,
+    "aciklama": "Tünellerde gündüz de olsa kısa far açılması zorunludur. Tüneller karanlık ortamlar olduğundan görüş mesafesini artırmak ve diğer sürücülere görünür olmak için far kullanımı şarttır."
+  },
+  {
+    "id": 29,
+    "soru": "Araç içinde kaç kişilik yolcu taşınabilir?",
+    "resim": null,
+    "secenekler": ["İstenen kadar", "Ruhsatta yazan koltuk sayısı kadar", "Sürücü dahil 5 kişi", "Bagaj hariç doluncaya kadar"],
+    "dogru": 1,
+    "aciklama": "Bir araçta taşınabilecek yolcu sayısı araç ruhsatında belirtilen koltuk sayısı ile sınırlıdır. Bu sınırı aşmak hem tehlikeli hem de trafik suçudur."
+  },
+  {
+    "id": 30,
+    "soru": "Dik bir yokuşa park edilmiş araçta hangisi doğrudur?",
+    "resim": null,
+    "secenekler": ["El freni çekmek yeterlidir", "Vitesi park (P) ya da geri vitese almak ve tekerleği kaldırıma yönlendirmek gerekir", "Yakıt kesilerek bırakılabilir", "Motor çalışır bırakılabilir"],
+    "dogru": 1,
+    "aciklama": "Yokuşta park ederken el freni çekmek yeterli güvence sağlamayabilir. Bunun yanı sıra araç park vitesine alınmalı veya geri vites yapılmalı ve ön tekerlekler kaldırıma yönlendirilmelidir."
+  },
+  {
+    "id": 31,
+    "soru": "Taşıtlarda reflektör ne zaman zorunlu hale gelir?",
+    "resim": null,
+    "secenekler": ["Gündüz", "Gece ve görüşü kısıtlayan havalarda", "Sadece şehir dışında", "Hiçbir zaman zorunlu değil"],
+    "dogru": 1,
+    "aciklama": "Reflektörler ve uyarı üçgenleri gece veya görüş mesafesini kısaltan hava koşullarında araç yolda kalınca kullanılması gereken zorunlu ekipmanlardır."
+  },
+  {
+    "id": 32,
+    "soru": "Trafikte 'makas atmak' ne anlama gelir?",
+    "resim": null,
+    "secenekler": ["Aynadan kontrol etmek", "Ani şerit değiştirme", "Flaşör kullanmak", "Geri geri gitmek"],
+    "dogru": 1,
+    "aciklama": "Makas atmak, sinyal vermeksizin ve ani biçimde şerit değiştirmek anlamına gelir. Bu davranış çok tehlikelidir, trafikte kazalara neden olur ve ceza gerektirir."
+  },
+  {
+    "id": 33,
+    "soru": "Aşağıdakilerden hangisi sürüş esnasında dikkat dağıtıcı bir durumdur?",
+    "resim": null,
+    "secenekler": ["Ayna kontrolleri yapmak", "Navigasyon ayarlamak", "Emniyet kemeri takmak", "Far açmak"],
+    "dogru": 1,
+    "aciklama": "Sürüş esnasında navigasyon ayarlamak, telefona bakmak, yemek yemek gibi davranışlar sürücünün dikkatini dağıtır ve kaza riskini büyük ölçüde artırır."
+  },
+  {
+    "id": 34,
+    "soru": "Öndeki araçla güvenli takip mesafesi nasıl belirlenir?",
+    "resim": null,
+    "secenekler": ["1 metre yeterlidir", "Hıza ve yol koşullarına göre en az 2-3 saniyelik mesafe", "5 araç boyu yeterlidir", "Sadece hıza göre 10 metre"],
+    "dogru": 1,
+    "aciklama": "Güvenli takip mesafesi hız, yol ve hava koşullarına göre değişir. Genel kural olarak kuru zeminde en az 2-3 saniyelik mesafe, ıslak zeminde bu mesafenin 2 katı bırakılmalıdır."
+  },
+  {
+    "id": 35,
+    "soru": "Aşağıdakilerden hangisi şehir içi hız ihlalinin doğrudan sonucudur?",
+    "resim": null,
+    "secenekler": ["Araç muayenesinin geçersiz sayılması", "Ceza puanı ve para cezası uygulanması", "Ehliyetin kalıcı iptali", "Sigorta priminin düşmesi"],
+    "dogru": 1,
+    "aciklama": "Hız ihlali tespit edildiğinde sürücüye ceza puanı ve idari para cezası uygulanır. Tekrarlanan ihlallerde ehliyet geçici olarak askıya alınabilir."
+  },
+  {
+    "id": 36,
+    "soru": "Sürücü alkol sınırı kaç promildir (özel araç)?",
+    "resim": null,
+    "secenekler": ["0.30 promil", "0.50 promil", "1.00 promil", "0.80 promil"],
+    "dogru": 1,
+    "aciklama": "Türkiye'de özel araç sürücüleri için yasal alkol sınırı 0.50 promildir. Ticari araç sürücüleri ve yeni sürücüler için bu sınır sıfır tolerans (0.00 promil) olarak uygulanmaktadır."
+  },
+  {
+    "id": 37,
+    "soru": "Ters yönde giden araç sürücüsüne ne yapılır?",
+    "resim": null,
+    "secenekler": ["Sadece uyarılır", "Ağır para cezası ve ceza puanı uygulanır", "Aracı teslim etmesi istenir", "Yalnızca ehliyet iptal edilir"],
+    "dogru": 1,
+    "aciklama": "Ters yönde araç kullanmak son derece tehlikeli bir ihlaldir. Ağır idari para cezası, ceza puanı ve gerektiğinde ehliyete el konulması gibi yaptırımlar uygulanır."
+  },
+  {
+    "id": 38,
+    "soru": "Yağmurlu havada sürüş için doğru olan nedir?",
+    "resim": null,
+    "secenekler": ["Hız artırılabilir", "Hız düşürülmeli ve takip mesafesi artırılmalı", "Far açmaya gerek yoktur", "Ani fren yapılabilir"],
+    "dogru": 1,
+    "aciklama": "Yağmurlu havalarda yol tutunması azalır ve fren mesafesi uzar. Bu nedenle hız düşürülmeli, takip mesafesi artırılmalı ve kısa far açılmalıdır."
+  },
+  {
+    "id": 39,
+    "soru": "Aşağıdaki hangi durumda sollama yapılabilir?",
+    "resim": null,
+    "secenekler": ["Tepelerde", "Kesik orta çizgide, görüş açık ve yeterli mesafe varsa", "Virajlarda", "Kavşak içinde"],
+    "dogru": 1,
+    "aciklama": "Sollama yalnızca kesik orta çizginin bulunduğu, görüş mesafesinin yeterli olduğu ve karşı şeritte araç bulunmadığı durumlarda yapılabilir. Tepe, viraj ve kavşaklarda sollama kesinlikle yasaktır."
+  },
+  {
+    "id": 40,
+    "soru": "Araç bagajında bulundurulması zorunlu ekipmanlar nelerdir?",
+    "resim": null,
+    "secenekler": ["Yalnızca stepne", "Uyarı üçgeni ve yangın söndürücü", "Yalnızca ilk yardım çantası", "Hiçbir ekipman zorunlu değildir"],
+    "dogru": 1,
+    "aciklama": "Araçlarda zorunlu olarak bulundurulması gereken ekipmanlar arasında uyarı üçgeni ve yangın söndürücü yer almaktadır. Bazı araç türleri için ilk yardım çantası da zorunlu olabilir."
+  },
+  {
+    "id": 41,
+    "soru": "Sürücü belgesi (ehliyet) kaç yılda bir yenilenmek zorundadır?",
+    "resim": null,
+    "secenekler": ["5 yılda bir", "Belirli bir süre yoktur, dolan puana göre", "10 yılda bir", "Her yıl"],
+    "dogru": 2,
+    "aciklama": "Türkiye'de B sınıfı (otomobil) sürücü belgeleri 10 yılda bir yenilenmektedir. Bazı sınıflar (örn. ağır taşıt) için daha sık yenileme zorunluluğu olabilir."
+  },
+  {
+    "id": 42,
+    "soru": "Araç kullanırken cep telefonu kullanımının yasal sınırı nedir?",
+    "resim": null,
+    "secenekler": ["Hoparlörde serbest", "El-free (kulaklık veya araç kiti) ile konuşulabilir", "Kırmızı ışıkta serbest", "Tamamen serbesttir"],
+    "dogru": 1,
+    "aciklama": "Araç kullanırken elde telefon tutmak yasaktır. Eller serbest (handsfree) sistemler, Bluetooth kulaklık veya araç kiti ile konuşmak kanuni olarak serbest bırakılmıştır."
+  },
+  {
+    "id": 43,
+    "soru": "Acil durum şeridini izinsiz kullanan sürücüye ne olur?",
+    "resim": null,
+    "secenekler": ["Hiçbir ceza uygulanmaz", "Ağır para cezası ve ceza puanı uygulanır", "Sadece uyarı yapılır", "Araç bağlanır"],
+    "dogru": 1,
+    "aciklama": "Acil durum şeridi yalnızca ambulans, itfaiye ve polis araçlarının kullanımına ayrılmıştır. Bu şeridi izinsiz kullanan sürücülere ağır para cezası ve ceza puanı uygulanmaktadır."
+  },
+  {
+    "id": 44,
+    "soru": "Dönüş yaparken sinyal ne zaman verilmelidir?",
+    "resim": null,
+    "secenekler": ["Dönüş anında", "Döndükten sonra", "Dönüşten önce yeterli mesafede", "Sinyal vermek zorunlu değildir"],
+    "dogru": 2,
+    "aciklama": "Sinyal, dönüş ya da şerit değişikliğinden önce yeterli süre ve mesafede verilmelidir. Böylece diğer sürücüler ve yayalar önceden bilgilendirilebilir."
+  },
+  {
+    "id": 45,
+    "soru": "Taşıt hızını ölçen radar denetimleri hangi kurum tarafından yapılır?",
+    "resim": null,
+    "secenekler": ["Belediye zabıtası", "Trafik polisi ve jandarma", "Ulaştırma Bakanlığı", "Karayolları Genel Müdürlüğü"],
+    "dogru": 1,
+    "aciklama": "Radar denetimleri şehir içinde trafik polisi, şehir dışında ise jandarma trafik birimleri tarafından gerçekleştirilmektedir. Her iki kurum da ceza uygulama yetkisine sahiptir."
+  },
+  {
+    "id": 46,
+    "soru": "Alkol testi uygulamasını reddeden sürücüye ne yapılır?",
+    "resim": null,
+    "secenekler": ["Serbest bırakılır", "En üst ceza uygulanır ve ehliyet alınır", "Sadece uyarı yapılır", "Para cezası verilmez"],
+    "dogru": 1,
+    "aciklama": "Alkol testini reddeden sürücü alkollü araç kullanmış kabul edilir ve en ağır ceza uygulanır. Ehliyet geçici olarak alınır ve çeşitli idari yaptırımlar devreye girer."
+  },
+  {
+    "id": 47,
+    "soru": "Yayaların önceliği olduğu yer hangisidir?",
+    "resim": null,
+    "secenekler": ["Otoyol", "Yaya geçidi", "Hızlanma şeridi", "Kavşak"],
+    "dogru": 1,
+    "aciklama": "Yaya geçitlerinde yayaların önceliği vardır. Sürücüler yaya geçidine yaklaşırken hız kesmek ve yayaların geçmesine izin vermek zorundadır."
+  },
+  {
+    "id": 48,
+    "soru": "Gece park halindeki araçta hangi ışık açık bırakılmalıdır?",
+    "resim": null,
+    "secenekler": ["Uzun far", "Park lambası (pozisyon lambası)", "İç aydınlatma", "Sis lambası"],
+    "dogru": 1,
+    "aciklama": "Gece veya görüşün kısıtlandığı koşullarda yolda park edilen araçlarda park lambası (pozisyon lambası) açık bırakılmalıdır. Bu, diğer araçların park halindeki araca çarpmasını engeller."
+  },
+  {
+    "id": 49,
+    "soru": "Araç devrilmesi veya suya girme gibi olağanüstü durumlarda sürücü ne yapmalıdır?",
+    "resim": null,
+    "secenekler": ["Araç içinde beklemelidir", "Güvenli ise aracı terk edip uzaklaşmalı ve yardım çağırmalıdır", "Motoru çalıştırmaya devam etmelidir", "Yakıt deposunu kapatmalıdır"],
+    "dogru": 1,
+    "aciklama": "Araç devrilmesi veya suya girmesi durumunda sürücü yaralanma yoksa mümkün olan en kısa sürede aracı terk etmeli, güvenli bir yere geçmeli ve 112'yi aramalıdır."
+  },
+  {
+    "id": 50,
+    "soru": "Trafik işaret levhalarına zarar vermek hangi tür suçu oluşturur?",
+    "resim": null,
+    "secenekler": ["Kabahat değildir", "Hem trafik hem de mülkiyet suçu oluşturur", "Sadece para cezasıdır", "İdari değil cezai yaptırım yoktur"],
+    "dogru": 1,
+    "aciklama": "Trafik işaret levhalarına zarar vermek, hem trafik mevzuatı hem de Türk Ceza Kanunu kapsamında suç teşkil eder. Kamu malına zarar verme suçundan dolayı cezai işlem yanı sıra idari para cezası da uygulanabilir."
+  }
+]
