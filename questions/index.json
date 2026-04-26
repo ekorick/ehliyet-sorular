@@ -1,1 +1,8 @@
-{ "date": "2026-04", "label": "3 Mayıs", "count": 50, "category": "Karma" }
+[
+  {
+    "date": "2026-04-26",
+    "label": "26 Nisan",
+    "count": 50,
+    "category": "Karma"
+  }
+]
